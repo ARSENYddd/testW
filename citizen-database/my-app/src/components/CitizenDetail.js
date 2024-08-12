@@ -4,7 +4,7 @@ import React from 'react';
 const CitizenDetail = ({ citizen }) => {
   if (!citizen) return <div>Select a citizen to see details</div>;
 
-  // Пример проверки данных
+  
   if (typeof citizen.name !== 'string') {
     return <div>The data format is incorrect.</div>;
   }

@@ -7,7 +7,7 @@ import Header from '../components/Header';
 const CitizensPage = () => {
   const [selectedCitizen, setSelectedCitizen] = useState(null);
 
-  console.log("Selected Citizen:", selectedCitizen); // Debugging
+  console.log("Selected Citizen:", selectedCitizen);
 
   return (
     <div className="citizens-page">

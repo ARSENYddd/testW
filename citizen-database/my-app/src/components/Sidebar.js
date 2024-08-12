@@ -9,7 +9,7 @@ const Sidebar = () => {
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/citizens">Citizens</Link></li>
-        {/* Добавьте другие ссылки по мере необходимости */}
+        
       </ul>
     </div>
   );
